@@ -22,7 +22,7 @@ cv:
           - "cGPA: 3.54 / 4.00"
           - "Relevant coursework: Reinforcement Learning, Machine Learning, Search & Planning in AI, Program Synthesis, Heuristic Search & Artificial Life Research Seminar, Software Engineering Principles, Data Structures & Algorithms, Design & Analysis of Algorithms."
 
-    Industry Experience:
+    Experience:
       - company: Microsoft
         position: Software Engineer Intern
         location: Redmond, WA, USA
@@ -41,8 +41,6 @@ cv:
           - Identified Bing ETL pipeline bottlenecks with PMs and engineers and implemented the optimal architectural approach.
           - Built a full-stack tool (React/TypeScript frontend, Java backend) that cut ETL debugging latency from 15 minutes to seconds using Azure Kubernetes Service, Azure Functions, and Azure SignalR Service.
           - Presented a live demo and quantified impact to stakeholders across Microsoft Bing, including CVPs and VPs.
-
-    Research Experience:
       - company: University of Alberta — RLAI Lab (Dr. Vadim Bulitko)
         position: Undergraduate Researcher
         location: Edmonton, AB, Canada
@@ -62,19 +60,13 @@ cv:
 
     Projects:
       - name: Prelude — Microsoft Global Intern Hackathon
-        start_date: 2026-07
-        end_date: 2026-07
         summary: Co-engineered a framework (team of 6) that automatically generates MCP tools for Microsoft Store apps by crawling the OS accessibility tree; demoed at the global hackathon science fair.
-      - name: "[ERL: Evolutionary RL A-Life Testbed](https://github.com/antonrou/erl)"
-        date: "2025"
-        summary: Open-source reimplementation of the Ackley & Littman (1991) A-Life testbed with programmatic, explainable policies that significantly outlived neural networks.
+      - name: ERL — Evolutionary RL A-Life Testbed
+        summary: "Open-source reimplementation of the Ackley & Littman (1991) A-Life testbed with programmatic, explainable policies that significantly outlived neural networks. [View on GitHub](https://github.com/antonrou/erl)."
       - name: MentAI
-        start_date: 2024-12
-        end_date: 2025-04
-        summary: Swift-based iOS MVP using the OpenAI API for LLM-assisted wellness insights; pitched to Amii and the UAlberta Health Sciences Startup Incubator.
-      - name: "[EEG-Based Pomodoro Focus Timer](https://github.com/antonrou/natHacks2024)"
-        date: "2024"
-        summary: Python sensor-driven focus timer integrating EEG data streams and signal processing (BrainFlow) for the natHacks 2024 neurotech hackathon.
+        summary: Swift-based iOS MVP using the OpenAI API for LLM-assisted wellness insights; pitched to the Alberta Machine Intelligence Institute (Amii) and the UAlberta Health Sciences Startup Incubator.
+      - name: EEG-Based Pomodoro Focus Timer
+        summary: "Python sensor-driven focus timer integrating EEG data streams and signal processing (BrainFlow) for the natHacks 2024 neurotech hackathon. [View on GitHub](https://github.com/antonrou/natHacks2024)."
 
     Honors & Awards:
       - bullet: "Dean's Honor Roll / First Class Standing — University of Alberta (2025, 2026)"
@@ -83,25 +75,23 @@ cv:
       - bullet: "AP Scholar with Distinction — College Board (2023)"
 
     Leadership:
-      - company: UAlberta Undergraduate AI Society
-        position: Panelist, "AI in Industry"
-        location: Edmonton, AB, Canada
-        start_date: 2025-09
-        end_date: 2025-09
-        summary: Shared industry software-engineering experience at Microsoft.
-      - company: neurAlbertaTech (UAlberta Chapter)
-        position: Treasurer
-        location: Edmonton, AB, Canada
-        start_date: 2024-09
-        end_date: 2025-05
-        summary: Oversaw finances and the annual budget for a student-led neurotechnology club.
+      - bullet: '**Panelist**, "AI in Industry" — UAlberta Undergraduate AI Society (2025). Shared industry software-engineering experience at Microsoft.'
+      - bullet: "**Treasurer** — neurAlbertaTech, UAlberta Chapter (2024–2025). Oversaw finances and the annual budget for a student-led neurotechnology club."
 
-    Skills:
+    Technical Skills:
       - label: Languages
         details: C#, TypeScript, Python, JavaScript, Java, C++, C, MATLAB, HTML/CSS, LaTeX
       - label: Tools & Cloud
         details: React, Azure Kubernetes Service, Azure Functions, Azure SignalR, Azure AI Foundry, Cosmos DB, GitHub Copilot, Git, Flask
       - label: ML & Data
         details: RL-Glue, Scikit-learn, Pandas, NumPy, Matplotlib
-      - label: Spoken Languages
-        details: English (native), Spanish (native), Russian (native), French (intermediate)
+
+    Languages:
+      - name: English
+        summary: Native
+      - name: Spanish
+        summary: Native
+      - name: Russian
+        summary: Native
+      - name: French
+        summary: Intermediate
