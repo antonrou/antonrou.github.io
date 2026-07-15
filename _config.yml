@@ -113,6 +113,20 @@ al_folio:
     distill:
       enabled: true
 
+blog_name: al-folio
+blog_description: a simple whitespace theme for academics
+permalink: /blog/:year/:title/
+lsi: false
+
+pagination:
+  enabled: true
+
+related_blog_posts:
+  enabled: true
+  max_related: 5
+
+disqus_shortname: al-folio
+
 # CRITICAL UPDATE FOR YOUR PERSONAL GITHUB PAGES DOMAIN:
 url: https://antonrou.github.io # changed to your personal URL
 baseurl: "" # set to blank so your assets compile from the root directory
