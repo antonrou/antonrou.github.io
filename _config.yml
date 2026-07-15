@@ -96,6 +96,23 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/tocbot@{{version}}/dist/tocbot.min.js"
     version: "4.32.2"
 
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+  tailwind:
+    version: 4.1.18
+    preflight: false
+    css_entry: assets/tailwind/app.css
+  distill:
+    engine: distillpub-template
+    source: al-org-dev/distill-template#al-folio
+    allow_remote_loader: true
+  features:
+    cv:
+      enabled: true
+    distill:
+      enabled: true
+
 # CRITICAL UPDATE FOR YOUR PERSONAL GITHUB PAGES DOMAIN:
 url: https://antonrou.github.io # changed to your personal URL
 baseurl: "" # set to blank so your assets compile from the root directory
