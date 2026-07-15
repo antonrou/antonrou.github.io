@@ -1,14 +1,9 @@
 cv:
   name: Anton Roupassov-Ruiz
-  label: Honors Computing Science Student
-  email: roupasso@ualberta.ca
+  headline: Honors Computing Science @ University of Alberta · Software Engineer Intern @ Microsoft
   location: Edmonton, AB, Canada
-  image: ""
-  summary: >-
-    4th-year Honors Computing Science student at the University of Alberta and Software Engineer
-    Intern at Microsoft. My interests span evolutionary reinforcement learning, explainable AI,
-    and program synthesis.
-
+  email: roupasso@ualberta.ca
+  website: https://antonrou.github.io/
   social_networks:
     - network: GitHub
       username: antonrou
@@ -18,14 +13,13 @@ cv:
   sections:
     Education:
       - institution: University of Alberta
-        location: Edmonton, AB, Canada
-        url: https://www.ualberta.ca/
         area: Computing Science (Honors)
-        studyType: BSc
+        degree: BSc
+        location: Edmonton, AB, Canada
         start_date: 2023-09
         end_date: 2027-06
-        score: "cGPA: 3.54 / 4.00"
         highlights:
+          - "cGPA: 3.54 / 4.00"
           - "Relevant coursework: Reinforcement Learning, Machine Learning, Search & Planning in AI, Program Synthesis, Heuristic Search & Artificial Life Research Seminar, Software Engineering Principles, Data Structures & Algorithms, Design & Analysis of Algorithms."
 
     Industry Experience:
@@ -36,10 +30,8 @@ cv:
         end_date: present
         highlights:
           - Engineered a production-grade AI agent integrated with Model Context Protocol (MCP) tools for a new internal platform, letting users translate natural language into dynamically generated, debugged, and deployed enterprise agent workflows.
-          - Architected the backend to orchestrate model invocation via Azure AI Foundry and to persist agent conversation histories in Azure Cosmos DB.
+          - Architected the backend to orchestrate model invocation via Azure AI Foundry and persist agent conversation histories in Azure Cosmos DB.
           - Accelerated development cycles by leveraging the GitHub Copilot CLI to manage distributed agent fleets and autonomous subagents.
-          - Delivered continuous feature demos in Scrum cycles, driving rapid feedback loops on user experience and product alignment.
-
       - company: Microsoft
         position: Explore (Software Engineering & Product Management) Intern
         location: Redmond, WA, USA
@@ -59,8 +51,7 @@ cv:
         highlights:
           - Developed the first fully specified, open-source reimplementation of the classic Ackley & Littman (1991) predator–prey evolutionary reinforcement learning A-Life testbed.
           - Formulated explainable, differentiable decision lists as a programmatic alternative to black-box neural networks, evaluated across 4,000 independent trials with Kaplan–Meier survival analysis.
-          - Proved programmatic agents significantly outlasted neural networks (log-rank p ≈ 4.1×10⁻⁷²), surviving on average 201.69 steps longer (95% CI [180.14, 223.25]).
-
+          - "Proved programmatic agents significantly outlasted neural networks (log-rank p ~ 4.1e-72), surviving on average 201.69 steps longer (95% CI [180.14, 223.25])."
       - company: University of Alberta — Computational Psychology Lab (Dr. Jeremy Caplan)
         position: Undergraduate Researcher
         location: Edmonton, AB, Canada
@@ -73,34 +64,26 @@ cv:
       - name: Prelude — Microsoft Global Intern Hackathon
         start_date: 2026-07
         end_date: 2026-07
-        summary: Co-engineered a framework (team of 6) that automatically generates MCP tools for Microsoft Store apps by programmatically crawling the OS accessibility tree; demoed at the global hackathon science fair.
-      - name: Evolutionary Reinforcement Learning A-Life Testbed (ERL)
-        summary: "Open-source reimplementation of the Ackley & Littman (1991) A-Life testbed with programmatic, explainable policies: github.com/antonrou/erl"
+        summary: Co-engineered a framework (team of 6) that automatically generates MCP tools for Microsoft Store apps by crawling the OS accessibility tree; demoed at the global hackathon science fair.
+      - name: "[ERL: Evolutionary RL A-Life Testbed](https://github.com/antonrou/erl)"
+        date: "2025"
+        summary: Open-source reimplementation of the Ackley & Littman (1991) A-Life testbed with programmatic, explainable policies that significantly outlived neural networks.
       - name: MentAI
         start_date: 2024-12
         end_date: 2025-04
         summary: Swift-based iOS MVP using the OpenAI API for LLM-assisted wellness insights; pitched to Amii and the UAlberta Health Sciences Startup Incubator.
-      - name: EEG-Based Pomodoro Focus Timer
-        start_date: 2024-11
-        end_date: 2024-11
+      - name: "[EEG-Based Pomodoro Focus Timer](https://github.com/antonrou/natHacks2024)"
+        date: "2024"
         summary: Python sensor-driven focus timer integrating EEG data streams and signal processing (BrainFlow) for the natHacks 2024 neurotech hackathon.
 
     Honors & Awards:
-      - title: Dean's Honor Roll / First Class Standing
-        date: 2026-04
-        awarder: University of Alberta
-      - title: Jason Lang Scholarship
-        date: 2025-11
-        awarder: University of Alberta
-      - title: Alexander Rutherford Scholarship
-        date: 2023-09
-        awarder: Alberta Student Aid
-      - title: AP Scholar with Distinction
-        date: 2023-06
-        awarder: College Board
+      - bullet: "Dean's Honor Roll / First Class Standing — University of Alberta (2025, 2026)"
+      - bullet: "Jason Lang Scholarship — University of Alberta (2024, 2025)"
+      - bullet: "Alexander Rutherford Scholarship — Alberta Student Aid (2023)"
+      - bullet: "AP Scholar with Distinction — College Board (2023)"
 
     Leadership:
-      - company: University of Alberta Undergraduate AI Society
+      - company: UAlberta Undergraduate AI Society
         position: Panelist, "AI in Industry"
         location: Edmonton, AB, Canada
         start_date: 2025-09
@@ -114,19 +97,11 @@ cv:
         summary: Oversaw finances and the annual budget for a student-led neurotechnology club.
 
     Skills:
-      - name: Programming Languages
-        keywords: "C#, TypeScript, Python, JavaScript, Java, C++, C, MATLAB, HTML/CSS, LaTeX"
-      - name: Tools & Cloud
-        keywords: "React, Azure Kubernetes Service, Azure Functions, Azure SignalR, Azure AI Foundry, Cosmos DB, GitHub Copilot, Git, Bash, Linux, Flask"
-      - name: ML & Data
-        keywords: "RL-Glue, Scikit-learn, Pandas, NumPy, Matplotlib"
-
-    Languages:
-      - name: English
-        summary: Native
-      - name: Spanish
-        summary: Native
-      - name: Russian
-        summary: Native
-      - name: French
-        summary: Intermediate
+      - label: Languages
+        details: C#, TypeScript, Python, JavaScript, Java, C++, C, MATLAB, HTML/CSS, LaTeX
+      - label: Tools & Cloud
+        details: React, Azure Kubernetes Service, Azure Functions, Azure SignalR, Azure AI Foundry, Cosmos DB, GitHub Copilot, Git, Flask
+      - label: ML & Data
+        details: RL-Glue, Scikit-learn, Pandas, NumPy, Matplotlib
+      - label: Spoken Languages
+        details: English (native), Spanish (native), Russian (native), French (intermediate)
