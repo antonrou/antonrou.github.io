@@ -9,7 +9,7 @@ last_name: Roupassov-Ruiz
 contact_note: >
   The best way to reach me is via my institutional email listed below.
 description: >
-  Honors Computer Science Undergraduate at the University of Alberta. 
+  Honors Computer Science Undergraduate at the University of Alberta.
   Focused on Evolutionary Reinforcement Learning, Explainable AI, and Program Synthesis.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -22,5 +22,5 @@ icon: ⚛️
 url: https://antonrou.github.io # changed to your personal URL
 baseurl: "" # set to blank so your assets compile from the root directory
 last_updated: true # set to true to show academic currency
-impressum_path: 
+impressum_path:
 back_to_top: true

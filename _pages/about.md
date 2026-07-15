@@ -12,7 +12,7 @@ profile:
     <p>Edmonton, AB, Canada</p>
 ---
 
-I am a 4th-year Honors Computer Science undergraduate at the **University of Alberta**, currently working as a Software Engineer Intern at **Microsoft**. 
+I am a 4th-year Honors Computer Science undergraduate at the **University of Alberta**, currently working as a Software Engineer Intern at **Microsoft**.
 
 My research interests lie at the intersection of **Evolutionary Reinforcement Learning**, **Explainable AI**, and **Program Synthesis**. I am particularly interested in replacing opaque, black-box neural networks with programmatic, explainable policies in complex environments.
 
