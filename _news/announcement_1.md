@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-12-12 09:00:00-0700
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Released [ERL](https://github.com/antonrou/erl) — the first fully specified, open-source reimplementation of the Ackley &amp; Littman (1991) evolutionary reinforcement learning A-Life testbed, where programmatic policies significantly outlived neural networks. :dna:
